@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Hiển thị ngày được chọn -->
+    <TextView
+        android:id="@+id/tvSelectedDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_ngay"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Tabs -->
+    <LinearLayout
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="8dp">
+
+        <TextView
+            android:id="@+id/tabChi"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/expense"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tabThu"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/income"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- Fragment Chi -->
+    <LinearLayout
+        android:id="@+id/fragmentChi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <!-- RecyclerView danh sách khoản chi -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerChi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Ghi chú -->
+        <EditText
+            android:id="@+id/textNoteChi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:hint="@string/hint_ghi_chu_chi"
+            android:inputType="text"
+            android:minHeight="48dp" />
+
+        <!-- Số tiền -->
+        <EditText
+            android:id="@+id/textTienChi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:hint="@string/hint_so_tien_chi"
+            android:inputType="numberDecimal"
+            android:minHeight="48dp" />
+
+        <!-- Nút -->
+        <Button
+            android:id="@+id/btnThemTienChi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_luu_tien_chi"/>
+    </LinearLayout>
+
+    <!-- Fragment Thu -->
+    <LinearLayout
+        android:id="@+id/fragmentThu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <!-- RecyclerView danh sách khoản thu -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerThu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Ghi chú -->
+        <EditText
+            android:id="@+id/textNoteThu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:hint="@string/hint_ghi_chu_thu"
+            android:inputType="text"
+            android:minHeight="48dp" />
+
+        <!-- Số tiền -->
+        <EditText
+            android:id="@+id/textTienThu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:hint="@string/hint_so_tien_thu"
+            android:inputType="numberDecimal"
+            android:minHeight="48dp" />
+
+        <!-- Nút -->
+        <Button
+            android:id="@+id/btnThemTienThu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_luu_tien_thu" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- Màu nền -->
+    <solid android:color="@color/light_purple" />
+
+    <!-- Bo góc -->
+    <corners android:radius="12dp" />
+
+    <!-- Viền -->
+    <stroke
+        android:width="2dp"
+        android:color="@color/light_blue" />
+
+    <!-- Padding (nội dung TextView cách mép) -->
+    <padding
+        android:left="8dp"
+        android:top="4dp"
+        android:right="8dp"
+        android:bottom="4dp" />
+</shape>

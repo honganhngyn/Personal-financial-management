@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Bảng màu tùy chỉnh cho biểu đồ (PieChart / BarChart) -->
+
+    <color name="chart_color_1">#FF6F61</color>    <!-- đỏ cam -->
+    <color name="chart_color_2">#6B5B95</color>    <!-- tím than -->
+    <color name="chart_color_3">#88B04B</color>    <!-- xanh lá mạ -->
+    <color name="chart_color_4">#F7CAC9</color>    <!-- hồng phấn -->
+    <color name="chart_color_5">#92A8D1</color>    <!-- xanh dương nhạt -->
+    <color name="chart_color_6">#955251</color>    <!-- nâu đỏ -->
+    <color name="chart_color_7">#B565A7</color>    <!-- tím hoa cà -->
+    <color name="chart_color_8">#009B77</color>    <!-- xanh ngọc -->
+    <color name="chart_color_9">#DD4124</color>    <!-- cam đỏ -->
+    <color name="chart_color_10">#45B8AC</color>   <!-- xanh pastel -->
+
+    <color name="chart_color_11">#EFC050</color>   <!-- vàng cát -->
+    <color name="chart_color_12">#5B5EA6</color>   <!-- xanh tím -->
+    <color name="chart_color_13">#9B2335</color>   <!-- đỏ đô -->
+    <color name="chart_color_14">#DFCFBE</color>   <!-- be nhạt -->
+    <color name="chart_color_15">#55B4B0</color>   <!-- xanh biển nhạt -->
+    <color name="chart_color_16">#E15D44</color>   <!-- cam gạch -->
+    <color name="chart_color_17">#7FCDCD</color>   <!-- xanh pastel nhạt -->
+    <color name="chart_color_18">#BC243C</color>   <!-- đỏ ruby -->
+    <color name="chart_color_19">#C3447A</color>   <!-- hồng cánh sen -->
+    <color name="chart_color_20">#98B4D4</color>   <!-- xanh pastel tím -->
+
+</resources>

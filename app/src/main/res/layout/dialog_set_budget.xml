@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/edtBudget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_enter_budget"
+        android:inputType="number"
+        android:padding="12dp"
+        android:textColor="@color/textColor"
+        android:backgroundTint="@color/frame"
+        android:background="@drawable/shape_rect02"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/nav_bar"
+        android:padding="12dp"
+        android:text="@string/save_budget"
+        android:textAllCaps="false"
+        android:textColor="@color/textColor" />
+</LinearLayout>

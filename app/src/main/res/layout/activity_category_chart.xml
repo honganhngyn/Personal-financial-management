@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:chart="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:padding="16dp">
+
+    <!-- Nút quay lại -->
+    <ImageButton
+        android:id="@+id/btnBack"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:src="@android:drawable/ic_menu_revert" />
+
+    <!-- TextView chọn năm -->
+    <TextView
+        android:id="@+id/tvSelectYear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnBack"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/bg_tv_year_picker"
+        android:padding="8dp"
+        android:text="Năm"
+        android:textSize="18sp" />
+
+    <!-- Tiêu đề danh mục -->
+    <TextView
+        android:id="@+id/tvCategoryTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvSelectYear"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:text="Danh mục: ..."
+        android:textColor="@color/textColor"
+        android:textSize="20sp" />
+
+    <!-- Biểu đồ đường LineChart -->
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/lineChartCategory"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tvCategoryTitle"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="50dp" />
+
+</RelativeLayout>

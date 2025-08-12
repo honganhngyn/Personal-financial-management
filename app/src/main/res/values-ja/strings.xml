@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QLTaiChinh</string>
+
+    <string name="welcome_to_my_app">お帰りなさい！</string>
+
+    <string name="hint_current_password">現在のパスワード</string>
+    <string name="hint_new_password">新しいパスワード</string>
+    <string name="hint_confirm_new_password">新しいパスワードを確認</string>
+    <string name="btn_change_password">パスワードを変更</string>
+
+    <string name="btn_english">English (英語)</string>
+    <string name="btn_vietnamese">Tiếng Việt (ベトナム語)</string>
+    <string name="btn_korean">한국어 (韓国語)</string>
+    <string name="btn_thai">ภาษาไทย (タイ語)</string>
+    <string name="btn_german">Deutsch (ドイツ語)</string>
+    <string name="btn_chinese">中文 (中国語)</string>
+    <string name="btn_japanese">日本語</string>
+
+    <string name="menu_input">入力</string>
+    <string name="menu_calendar">カレンダー</string>
+    <string name="menu_chart">統計</string>
+    <string name="menu_setting">設定</string>
+
+    <string name="setting_profile">プロフィール</string>
+    <string name="setting_theme">ライト/ダークモード</string>
+    <string name="setting_budget">月予算を設定</string>
+    <string name="setting_language">言語を変更</string>
+    <string name="setting_change_password">パスワードを変更</string>
+    <string name="setting_logout">ログアウト</string>
+    <string name="setting_option">オプション</string>
+
+    <string name="logout_confirm_title">確認</string>
+    <string name="logout_confirm_message">本当にログアウトしますか？</string>
+    <string name="cancel">キャンセル</string>
+    <string name="yes">はい</string>
+    <string name="logout_success">ログアウト成功</string>
+
+    <string name="label_full_name">氏名：</string>
+    <string name="hint_full_name">名前を入力</string>
+    <string name="label_phone">電話番号：</string>
+    <string name="hint_phone">電話番号を入力</string>
+    <string name="label_country">国：</string>
+    <string name="hint_country">国を入力</string>
+    <string name="label_email">メール：</string>
+    <string name="hint_email">メールアドレスを入力</string>
+    <string name="label_password">パスワード：</string>
+    <string name="hint_password">パスワードを入力</string>
+    <string name="label_confirm_password">パスワード確認：</string>
+    <string name="hint_confirm_password">もう一度パスワードを入力</string>
+    <string name="btn_register">登録</string>
+
+    <string name="title_quan_ly_chi_tieu">支出管理</string>
+    <string name="forgot_password">パスワードをお忘れですか？</string>
+    <string name="login">ログイン</string>
+    <string name="register">登録</string>
+
+    <string name="hint_enter_budget">予算を入力 (VND)</string>
+    <string name="save_budget">予算を保存</string>
+
+    <string name="label_month">月</string>
+    <string name="income">収入</string>
+    <string name="expense">支出</string>
+    <string name="total">合計</string>
+
+    <string name="month_title">月</string>
+    <string name="label_chi_tieu">支出：\n%s đ</string>
+    <string name="label_thu_nhap">収入：\n%s đ</string>
+    <string name="label_tong_thu_chi">収入と支出の合計：\n%s đ</string>
+    <string name="change_language">言語を変更</string>
+
+    <string name="tab_chi">支出カテゴリ</string>
+    <string name="tab_thu">収入カテゴリ</string>
+    <string name="hint_nhap_ten_danh_muc">カテゴリ名を入力</string>
+    <string name="button_them">追加</string>
+    <string name="button_sua">編集</string>
+    <string name="button_xoa">削除</string>
+    <string name="button_quay_lai">戻る</string>
+
+    <string name="label_ngay">日付</string>
+    <string name="tab_tien_chi">支出</string>
+    <string name="tab_tien_thu">収入</string>
+    <string name="hint_ghi_chu_chi">支出メモ</string>
+    <string name="hint_so_tien_chi">支出金額</string>
+    <string name="btn_luu_tien_chi">支出を保存</string>
+    <string name="hint_ghi_chu_thu">収入メモ</string>
+    <string name="hint_so_tien_thu">収入金額</string>
+    <string name="btn_luu_tien_thu">収入を保存</string>
+
+    <string name="hint_nhap_ngay">日付を入力</string>
+    <string name="label_ghi_chu">メモ</string>
+    <string name="hint_nhap_ghi_chu">メモを入力</string>
+    <string name="label_so_tien">金額</string>
+    <string name="hint_nhap_so_tien">金額を入力</string>
+    <string name="label_chon_danh_muc">カテゴリを選択</string>
+    <string name="btn_luu_thay_doi">変更を保存</string>
+
+    <string name="danh_muc">カテゴリ</string>
+    <string name="edt_danhmuc">カテゴリを編集</string>
+
+    <string name="quen_mk">パスワードを忘れた</string>
+    <string name="thong_bao">メールを確認してください</string>
+    <string name="email">メール</string>
+    <string name="gui_yc">リクエスト送信</string>
+
+    <string name="info">個人情報</string>
+    <string name="update">更新</string>
+
+    <string name="error_empty_amount">金額を入力してください</string>
+    <string name="budget_saved">の予算が保存されました</string>
+    <string name="budget_save_error">予算保存中にエラーが発生しました</string>
+    <string name="progress_creating_account">アカウント作成中...</string>
+    <string name="register_account">アカウントを作成</string>
+    <string name="register_success_message">登録成功。メールで確認してください</string>
+    <string name="register_fail_message">登録に失敗しました：</string>
+    <string name="verify_account">アカウント確認</string>
+    <string name="verify_email_fail_message">確認メールの送信に失敗しました：</string>
+    <string name="progress_saving_data">データ保存中...</string>
+    <string name="update_failed_try_again">更新に失敗しました。再試行してください。</string>
+    <string name="save_success">保存成功</string>
+    <string name="save_account">アカウントを保存</string>
+    <string name="save_fail_message">保存に失敗しました：</string>
+    <string name="error_incomplete_info">すべての情報を入力してください</string>
+    <string name="error_password_mismatch">パスワードが一致しません</string>
+    <string name="password_change_success">パスワード変更成功</string>
+    <string name="password_change_error">パスワード変更中にエラー</string>
+    <string name="error_incorrect_current_password">現在のパスワードが正しくありません</string>
+    <string name="reset_link_sent">リセットリンクがメールに送信されました</string>
+    <string name="error">エラー</string>
+    <string name="user_not_found">ユーザーが見つかりません</string>
+    <string name="data_load_error">データ読み込みエラー</string>
+    <string name="error_empty_name">名前を入力してください</string>
+    <string name="error_empty_phone">電話番号を入力してください</string>
+    <string name="error_empty_country">国を入力してください</string>
+    <string name="error_short_password">パスワードは6文字以上にしてください</string>
+    <string name="error_password_not_match">パスワードが一致しません</string>
+    <string name="login_failed">ログインに失敗しました</string>
+    <string name="error_invalid_email">無効なメールアドレス</string>
+    <string name="error_empty_password">パスワードを入力してください</string>
+    <string name="logging_in">ログイン中...</string>
+    <string name="timeout_retry">タイムアウトしました。再試行してください</string>
+    <string name="checking">確認中...</string>
+    <string name="user_uid_error">ユーザーUIDを取得できません</string>
+    <string name="network_error">ネットワークエラー</string>
+    <string name="email_verification_required">まずメールを確認してください</string>
+    <string name="loading_user_data">ユーザーデータ読み込み中...</string>
+    <string name="welcome">ようこそ</string>
+    <string name="back">戻る！</string>
+    <string name="account_not_found">アカウントが見つかりません</string>
+    <string name="enter_category_name">カテゴリ名を入力してください！</string>
+    <string name="category_exists">カテゴリはすでに存在します！</string>
+    <string name="category_added">カテゴリ追加完了</string>
+    <string name="select_category">カテゴリを選択してください！</string>
+    <string name="enter_new_name">新しい名前を入力してください！</string>
+    <string name="category_updated">カテゴリを更新しました</string>
+    <string name="category_deleted">カテゴリを削除しました</string>
+    <string name="select_month_year">月と年を選択してください</string>
+    <string name="error_open_edit">編集を開くときにエラーが発生しました</string>
+    <string name="income_expense_ratio">収入と支出の比率</string>
+    <string name="expense_saved">支出を保存しました</string>
+    <string name="enter_date">日付を入力してください</string>
+    <string name="income_saved">収入を保存しました</string>
+    <string name="selected">選択済み：</string>
+    <string name="updated">更新済み！</string>
+    <string name="document_id_not_found_update">更新するドキュメントIDが見つかりません！</string>
+    <string name="deleted">削除しました！</string>
+    <string name="document_id_not_found_delete">削除するドキュメントIDが見つかりません！</string>
+    <string name="error_loading_category">カテゴリ読み込みエラー：</string>
+    <string name="saved">取引を保存しました</string>
+    <string name="chi">支出</string>
+    <string name="thu">収入</string>
+    <string name="ok">同意する</string>
+    <string name="over_budget">予算オーバー</string>
+    <string name="near_budget">予算上限に近づいています</string>
+    <string name="warning">警告</string>
+    <string name="fit_budget">予算に近づいています</string>
+    <string name="processing_day">日付処理エラー: </string>
+    <string name="error_loading_budget">予算の読み込みエラー: </string>
+    <string name="error_check_total">支出の合計確認エラー: </string>
+    <string name="budget">予算</string>
+    <string name="please_enter_email">メールアドレスを入力してください</string>
+    <string name="year">年</string>
+    <string name="select_year">年を選択</string>
+    <string name="expense1">支出</string>
+    <string name="error_parse_date">日付の解析エラー</string>
+    <string name="category_food">食費</string>
+    <string name="category_transport">交通</string>
+    <string name="category_shopping">買い物</string>
+    <string name="category_entertainment">娯楽</string>
+    <string name="category_health">健康</string>
+    <string name="category_education">教育</string>
+    <string name="category_bills">請求書</string>
+    <string name="income_salary">給料</string>
+    <string name="income_bonus">ボーナス</string>
+    <string name="income_investment">投資</string>
+    <string name="income_sales">販売</string>
+    <string name="income_other">その他</string>
+    <string name="select_language">言語を選択</string>
+</resources>

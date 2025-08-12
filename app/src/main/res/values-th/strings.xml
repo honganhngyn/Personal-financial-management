@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QLTaiChinh</string>
+
+    <string name="welcome_to_my_app">ยินดีต้อนรับกลับมา!</string>
+
+    <string name="hint_current_password">รหัสผ่านปัจจุบัน</string>
+    <string name="hint_new_password">รหัสผ่านใหม่</string>
+    <string name="hint_confirm_new_password">ยืนยันรหัสผ่านใหม่</string>
+    <string name="btn_change_password">เปลี่ยนรหัสผ่าน</string>
+
+    <string name="btn_english">English (ภาษาอังกฤษ)</string>
+    <string name="btn_vietnamese">Tiếng Việt (ภาษาเวียดนาม)</string>
+    <string name="btn_korean">한국어 (ภาษาเกาหลี)</string>
+    <string name="btn_thai">ภาษาไทย</string>
+    <string name="btn_german">Deutsch (ภาษาเยอรมัน)</string>
+    <string name="btn_chinese">中文 (ภาษาจีน)</string>
+    <string name="btn_japanese">日本語 (ภาษาญี่ปุ่น)</string>
+
+    <string name="menu_input">บันทึก</string>
+    <string name="menu_calendar">ปฏิทิน</string>
+    <string name="menu_chart">สถิติ</string>
+    <string name="menu_setting">การตั้งค่า</string>
+
+    <string name="setting_profile">ข้อมูลส่วนตัว</string>
+    <string name="setting_theme">โหมดสว่าง/มืด</string>
+    <string name="setting_budget">ตั้งงบประมาณรายเดือน</string>
+    <string name="setting_language">เปลี่ยนภาษา</string>
+    <string name="setting_change_password">เปลี่ยนรหัสผ่าน</string>
+    <string name="setting_logout">ออกจากระบบ</string>
+    <string name="setting_option">ตัวเลือก</string>
+
+    <string name="logout_confirm_title">ยืนยัน</string>
+    <string name="logout_confirm_message">คุณต้องการออกจากระบบหรือไม่?</string>
+    <string name="cancel">ยกเลิก</string>
+    <string name="yes">ใช่</string>
+    <string name="logout_success">ออกจากระบบเรียบร้อยแล้ว</string>
+
+    <string name="label_full_name">ชื่อ:</string>
+    <string name="hint_full_name">กรอกชื่อ</string>
+    <string name="label_phone">เบอร์โทร:</string>
+    <string name="hint_phone">กรอกเบอร์โทร</string>
+    <string name="label_country">ประเทศ:</string>
+    <string name="hint_country">กรอกประเทศ</string>
+    <string name="label_email">อีเมล:</string>
+    <string name="hint_email">กรอกอีเมล</string>
+    <string name="label_password">รหัสผ่าน:</string>
+    <string name="hint_password">กรอกรหัสผ่าน</string>
+    <string name="label_confirm_password">ยืนยันรหัสผ่าน:</string>
+    <string name="hint_confirm_password">กรอกรหัสผ่านอีกครั้ง</string>
+    <string name="btn_register">สมัครสมาชิก</string>
+
+    <string name="title_quan_ly_chi_tieu">การจัดการค่าใช้จ่าย</string>
+    <string name="forgot_password">ลืมรหัสผ่าน?</string>
+    <string name="login">เข้าสู่ระบบ</string>
+    <string name="register">ลงทะเบียน</string>
+
+    <string name="hint_enter_budget">กรอกงบประมาณ (VND)</string>
+    <string name="save_budget">บันทึกงบประมาณ</string>
+
+    <string name="label_month">เดือน</string>
+    <string name="income">รายรับ</string>
+    <string name="expense">รายจ่าย</string>
+    <string name="total">รวม</string>
+
+    <string name="month_title">เดือน</string>
+    <string name="label_chi_tieu">รายจ่าย:\n%s đ</string>
+    <string name="label_thu_nhap">รายรับ:\n%s đ</string>
+    <string name="label_tong_thu_chi">รวมรายรับและรายจ่าย:\n%s đ</string>
+    <string name="change_language">เปลี่ยนภาษา</string>
+
+    <string name="tab_chi">หมวดรายจ่าย</string>
+    <string name="tab_thu">หมวดรายรับ</string>
+    <string name="hint_nhap_ten_danh_muc">กรอกชื่อหมวดหมู่</string>
+    <string name="button_them">เพิ่ม</string>
+    <string name="button_sua">แก้ไข</string>
+    <string name="button_xoa">ลบ</string>
+    <string name="button_quay_lai">ย้อนกลับ</string>
+
+    <string name="label_ngay">วันที่</string>
+    <string name="tab_tien_chi">รายจ่าย</string>
+    <string name="tab_tien_thu">รายรับ</string>
+    <string name="hint_ghi_chu_chi">กรอกหมายเหตุรายจ่าย</string>
+    <string name="hint_so_tien_chi">กรอกจำนวนเงินรายจ่าย</string>
+    <string name="btn_luu_tien_chi">บันทึกรายจ่าย</string>
+    <string name="hint_ghi_chu_thu">กรอกหมายเหตุรายรับ</string>
+    <string name="hint_so_tien_thu">กรอกจำนวนเงินรายรับ</string>
+    <string name="btn_luu_tien_thu">บันทึกรายรับ</string>
+
+    <string name="hint_nhap_ngay">กรอกวันที่</string>
+    <string name="label_ghi_chu">หมายเหตุ</string>
+    <string name="hint_nhap_ghi_chu">กรอกหมายเหตุ</string>
+    <string name="label_so_tien">จำนวนเงิน</string>
+    <string name="hint_nhap_so_tien">กรอกจำนวนเงิน</string>
+    <string name="label_chon_danh_muc">เลือกหมวดหมู่</string>
+    <string name="btn_luu_thay_doi">บันทึกการเปลี่ยนแปลง</string>
+
+    <string name="danh_muc">หมวดหมู่</string>
+    <string name="edt_danhmuc">แก้ไขหมวดหมู่</string>
+
+    <string name="quen_mk">ลืมรหัสผ่าน</string>
+    <string name="thong_bao">กรุณาตรวจสอบอีเมลของคุณ</string>
+    <string name="email">อีเมล</string>
+    <string name="gui_yc">ส่งคำขอ</string>
+
+    <string name="info">ข้อมูลส่วนตัว</string>
+    <string name="update">อัปเดต</string>
+
+    <string name="error_empty_amount">กรุณากรอกจำนวนเงิน</string>
+    <string name="budget_saved">บันทึกงบประมาณสำหรับเดือน แล้ว</string>
+    <string name="budget_save_error">เกิดข้อผิดพลาดในการบันทึกงบประมาณ</string>
+    <string name="progress_creating_account">กำลังสร้างบัญชี...</string>
+    <string name="register_account">สมัครบัญชี</string>
+    <string name="register_success_message">สมัครสำเร็จ กรุณาตรวจสอบอีเมลเพื่อยืนยัน</string>
+    <string name="register_fail_message">การสมัครล้มเหลว เหตุผล: </string>
+    <string name="verify_account">ยืนยันบัญชี</string>
+    <string name="verify_email_fail_message">ส่งลิงก์ยืนยันไม่สำเร็จ เหตุผล: </string>
+    <string name="progress_saving_data">กำลังบันทึกข้อมูล...</string>
+    <string name="update_failed_try_again">อัปเดตไม่สำเร็จ กรุณาลองใหม่</string>
+    <string name="save_success">บันทึกสำเร็จ</string>
+    <string name="save_account">บันทึกบัญชี</string>
+    <string name="save_fail_message">บันทึกข้อมูลล้มเหลว เหตุผล: </string>
+    <string name="error_incomplete_info">กรุณากรอกข้อมูลให้ครบ</string>
+    <string name="error_password_mismatch">การยืนยันรหัสผ่านไม่ตรงกัน</string>
+    <string name="password_change_success">เปลี่ยนรหัสผ่านสำเร็จ</string>
+    <string name="password_change_error">เกิดข้อผิดพลาดในการเปลี่ยนรหัสผ่าน</string>
+    <string name="error_incorrect_current_password">รหัสผ่านปัจจุบันไม่ถูกต้อง</string>
+    <string name="reset_link_sent">ลิงก์รีเซ็ตรหัสผ่านถูกส่งไปยังอีเมลแล้ว</string>
+    <string name="error">ข้อผิดพลาด</string>
+    <string name="user_not_found">ไม่พบผู้ใช้</string>
+    <string name="data_load_error">เกิดข้อผิดพลาดในการโหลดข้อมูล</string>
+    <string name="error_empty_name">ชื่อไม่สามารถเว้นว่างได้</string>
+    <string name="error_empty_phone">เบอร์โทรไม่สามารถเว้นว่างได้</string>
+    <string name="error_empty_country">ประเทศไม่สามารถเว้นว่างได้</string>
+    <string name="error_short_password">รหัสผ่านต้องมีอย่างน้อย 6 ตัวอักษร</string>
+    <string name="error_password_not_match">รหัสผ่านไม่ตรงกัน</string>
+    <string name="login_failed">เข้าสู่ระบบล้มเหลว</string>
+    <string name="error_invalid_email">อีเมลไม่ถูกต้อง</string>
+    <string name="error_empty_password">กรุณากรอกรหัสผ่าน</string>
+    <string name="logging_in">กำลังเข้าสู่ระบบ...</string>
+    <string name="timeout_retry">หมดเวลา กรุณาลองใหม่</string>
+    <string name="checking">กำลังตรวจสอบ...</string>
+    <string name="user_uid_error">ไม่สามารถรับ UID ของผู้ใช้ได้</string>
+    <string name="network_error">ข้อผิดพลาดของเครือข่าย</string>
+    <string name="email_verification_required">ต้องยืนยันอีเมลก่อน</string>
+    <string name="loading_user_data">กำลังโหลดข้อมูลผู้ใช้...</string>
+    <string name="welcome">ยินดีต้อนรับ</string>
+    <string name="back">กลับ!</string>
+    <string name="account_not_found">ไม่พบบัญชี</string>
+    <string name="enter_category_name">กรุณากรอกชื่อหมวดหมู่!</string>
+    <string name="category_exists">หมวดหมู่มีอยู่แล้ว!</string>
+    <string name="category_added">เพิ่มหมวดหมู่แล้ว</string>
+    <string name="select_category">กรุณาเลือกหมวดหมู่!</string>
+    <string name="enter_new_name">กรุณากรอกชื่อใหม่!</string>
+    <string name="category_updated">อัปเดตหมวดหมู่แล้ว</string>
+    <string name="category_deleted">ลบหมวดหมู่แล้ว</string>
+    <string name="select_month_year">เลือกเดือนและปี</string>
+    <string name="error_open_edit">ไม่สามารถเปิดแก้ไขได้</string>
+    <string name="income_expense_ratio">อัตราส่วนรายรับ-รายจ่าย</string>
+    <string name="expense_saved">บันทึกรายจ่ายแล้ว</string>
+    <string name="enter_date">กรุณากรอกวันที่</string>
+    <string name="income_saved">บันทึกรายรับแล้ว</string>
+    <string name="selected">เลือก: </string>
+    <string name="updated">อัปเดตแล้ว!</string>
+    <string name="document_id_not_found_update">ไม่พบ ID เอกสารสำหรับอัปเดต!</string>
+    <string name="deleted">ลบแล้ว!</string>
+    <string name="document_id_not_found_delete">ไม่พบ ID เอกสารสำหรับลบ!</string>
+    <string name="error_loading_category">เกิดข้อผิดพลาดในการโหลดหมวดหมู่:</string>
+    <string name="saved">บันทึกรายการแล้ว</string>
+    <string name="chi">รายจ่าย</string>
+    <string name="thu">รายรับ</string>
+    <string name="ok">ตกลง</string>
+    <string name="over_budget">เกินงบประมาณ</string>
+    <string name="near_budget">ใกล้ถึงขีดจำกัดงบประมาณ</string>
+    <string name="warning">คำเตือน</string>
+    <string name="fit_budget">ใกล้ถึงงบประมาณ</string>
+    <string name="processing_day">เกิดข้อผิดพลาดในการประมวลผลวันที่: </string>
+    <string name="error_loading_budget">เกิดข้อผิดพลาดในการโหลดงบประมาณ: </string>
+    <string name="error_check_total">เกิดข้อผิดพลาดในการตรวจสอบค่าใช้จ่ายทั้งหมด: </string>
+    <string name="budget">งบประมาณ</string>
+    <string name="please_enter_email">กรุณาใส่อีเมล</string>
+    <string name="year">ปี</string>
+    <string name="select_year">เลือกปี</string>
+    <string name="expense1">ค่าใช้จ่าย</string>
+    <string name="error_parse_date">ข้อผิดพลาดในการแปลงวันที่</string>
+    <string name="category_food">อาหารและเครื่องดื่ม</string>
+    <string name="category_transport">การเดินทาง</string>
+    <string name="category_shopping">ช้อปปิ้ง</string>
+    <string name="category_entertainment">ความบันเทิง</string>
+    <string name="category_health">สุขภาพ</string>
+    <string name="category_education">การศึกษา</string>
+    <string name="category_bills">ค่าน้ำค่าไฟ</string>
+    <string name="income_salary">เงินเดือน</string>
+    <string name="income_bonus">โบนัส</string>
+    <string name="income_investment">การลงทุน</string>
+    <string name="income_sales">ยอดขาย</string>
+    <string name="income_other">อื่นๆ</string>
+    <string name="select_language">เลือกภาษา</string>
+</resources>

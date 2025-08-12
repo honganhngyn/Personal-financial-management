@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_input"
+        android:icon="@drawable/handwrite"
+        android:title="@string/menu_input" />
+    <item
+        android:id="@+id/menu_calendar"
+        android:icon="@drawable/calendar"
+        android:title="@string/menu_calendar" />
+    <item
+        android:id="@+id/menu_chart"
+        android:icon="@drawable/chart"
+        android:title="@string/menu_chart" />
+    <item
+        android:id="@+id/menu_setting"
+        android:icon="@drawable/setting"
+        android:title="@string/menu_setting" />
+</menu>

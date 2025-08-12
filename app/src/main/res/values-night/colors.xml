@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="textColor">#FFFFFF</color>
+    <color name="backgroundColor">#FF000000</color>
+    <color name="frame">#353535</color>
+    <color name="nav_bar">#BF72D5FA</color>
+</resources>

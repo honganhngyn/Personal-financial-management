@@ -1,0 +1,198 @@
+<resources>
+    <string name="app_name">QLTaiChinh</string>
+
+    <string name="welcome_to_my_app">Willkommen zurück!</string>
+
+    <string name="hint_current_password">Aktuelles Passwort</string>
+    <string name="hint_new_password">Neues Passwort</string>
+    <string name="hint_confirm_new_password">Neues Passwort bestätigen</string>
+    <string name="btn_change_password">Passwort ändern</string>
+
+    <string name="btn_english">English (Englisch)</string>
+    <string name="btn_vietnamese">Tiếng Việt (Vietnamesisch)</string>
+    <string name="btn_korean">한국어 (Koreanisch)</string>
+    <string name="btn_thai">ภาษาไทย (Thailändisch)</string>
+    <string name="btn_german">Deutsch</string>
+    <string name="btn_chinese">中文 (Chinesisch)</string>
+    <string name="btn_japanese">日本語 (Japanisch)</string>
+
+    <string name="menu_input">Eingabe</string>
+    <string name="menu_calendar">Kalender</string>
+    <string name="menu_chart">Statistik</string>
+    <string name="menu_setting">Einstellungen</string>
+
+    <string name="setting_profile">Persönliche Informationen</string>
+    <string name="setting_theme">Hell/Dunkel-Modus</string>
+    <string name="setting_budget">Monatliches Budget festlegen</string>
+    <string name="setting_language">Sprache wechseln</string>
+    <string name="setting_change_password">Passwort ändern</string>
+    <string name="setting_logout">Abmelden</string>
+    <string name="setting_option">Optionen</string>
+
+    <string name="logout_confirm_title">Bestätigung</string>
+    <string name="logout_confirm_message">Möchten Sie sich wirklich abmelden?</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="yes">Ja</string>
+    <string name="logout_success">Abgemeldet</string>
+
+    <string name="label_full_name">Vollständiger Name:</string>
+    <string name="hint_full_name">Name eingeben</string>
+    <string name="label_phone">Telefonnummer:</string>
+    <string name="hint_phone">Telefonnummer eingeben</string>
+    <string name="label_country">Land:</string>
+    <string name="hint_country">Land eingeben</string>
+    <string name="label_email">E-Mail:</string>
+    <string name="hint_email">E-Mail eingeben</string>
+    <string name="label_password">Passwort:</string>
+    <string name="hint_password">Passwort eingeben</string>
+    <string name="label_confirm_password">Passwort bestätigen:</string>
+    <string name="hint_confirm_password">Passwort erneut eingeben</string>
+    <string name="btn_register">Registrieren</string>
+
+    <string name="title_quan_ly_chi_tieu">Ausgabenverwaltung</string>
+    <string name="forgot_password">Passwort vergessen?</string>
+    <string name="login">Anmelden</string>
+    <string name="register">Registrieren</string>
+
+    <string name="hint_enter_budget">Budget eingeben (VND)</string>
+    <string name="save_budget">Budget speichern</string>
+
+    <string name="label_month">Monat</string>
+    <string name="income">Einnahmen</string>
+    <string name="expense">Ausgaben</string>
+    <string name="total">Gesamt</string>
+
+    <string name="month_title">Monat</string>
+    <string name="label_chi_tieu">Ausgaben:\n%s đ</string>
+    <string name="label_thu_nhap">Einnahmen:\n%s đ</string>
+    <string name="label_tong_thu_chi">Gesamteinnahmen und -ausgaben:\n%s đ</string>
+    <string name="change_language">Sprache wechseln</string>
+
+    <string name="tab_chi">Ausgabenkategorie</string>
+    <string name="tab_thu">Einnahmekategorie</string>
+    <string name="hint_nhap_ten_danh_muc">Kategoriename eingeben</string>
+    <string name="button_them">Hinzufügen</string>
+    <string name="button_sua">Bearbeiten</string>
+    <string name="button_xoa">Löschen</string>
+    <string name="button_quay_lai">Zurück</string>
+
+    <string name="label_ngay">Datum</string>
+    <string name="tab_tien_chi">Ausgaben</string>
+    <string name="tab_tien_thu">Einnahmen</string>
+    <string name="hint_ghi_chu_chi">Ausgabenkommentar eingeben</string>
+    <string name="hint_so_tien_chi">Ausgabenbetrag eingeben</string>
+    <string name="btn_luu_tien_chi">Ausgabe speichern</string>
+    <string name="hint_ghi_chu_thu">Einnahmekommentar eingeben</string>
+    <string name="hint_so_tien_thu">Einnahmenbetrag eingeben</string>
+    <string name="btn_luu_tien_thu">Einnahme speichern</string>
+
+    <string name="hint_nhap_ngay">Datum eingeben</string>
+    <string name="label_ghi_chu">Notiz</string>
+    <string name="hint_nhap_ghi_chu">Notiz eingeben</string>
+    <string name="label_so_tien">Betrag</string>
+    <string name="hint_nhap_so_tien">Betrag eingeben</string>
+    <string name="label_chon_danh_muc">Kategorie auswählen</string>
+    <string name="btn_luu_thay_doi">Änderungen speichern</string>
+
+    <string name="danh_muc">Kategorie</string>
+    <string name="edt_danhmuc">Kategorie bearbeiten</string>
+
+    <string name="quen_mk">Passwort vergessen</string>
+    <string name="thong_bao">Bitte überprüfen Sie Ihre E-Mail</string>
+    <string name="email">E-Mail</string>
+    <string name="gui_yc">Anfrage senden</string>
+
+    <string name="info">Persönliche Informationen</string>
+    <string name="update">Aktualisieren</string>
+
+    <string name="error_empty_amount">Bitte Betrag eingeben</string>
+    <string name="budget_saved">Budget für gespeichert</string>
+    <string name="budget_save_error">Fehler beim Speichern des Budgets</string>
+    <string name="progress_creating_account">Konto wird erstellt</string>
+    <string name="register_account">Konto registrieren</string>
+    <string name="register_success_message">Registrierung erfolgreich. Bitte überprüfen Sie Ihre E-Mail zur Bestätigung.</string>
+    <string name="register_fail_message">Registrierung fehlgeschlagen, Grund: </string>
+    <string name="verify_account">Konto verifizieren</string>
+    <string name="verify_email_fail_message">Senden des Bestätigungslinks fehlgeschlagen, Grund: </string>
+    <string name="progress_saving_data">Speichere Daten</string>
+    <string name="update_failed_try_again">Aktualisierung fehlgeschlagen, bitte erneut versuchen</string>
+    <string name="save_success">Erfolgreich gespeichert</string>
+    <string name="save_account">Konto speichern</string>
+    <string name="save_fail_message">Informationen konnten nicht gespeichert werden, Grund: </string>
+    <string name="error_incomplete_info">Bitte alle Informationen eingeben</string>
+    <string name="error_password_mismatch">Passwortbestätigung stimmt nicht überein</string>
+    <string name="password_change_success">Passwort erfolgreich geändert</string>
+    <string name="password_change_error">Fehler beim Ändern des Passworts</string>
+    <string name="error_incorrect_current_password">Aktuelles Passwort ist falsch</string>
+    <string name="reset_link_sent">Ein Link zum Zurücksetzen des Passworts wurde an Ihre E-Mail gesendet</string>
+    <string name="error">Fehler</string>
+    <string name="user_not_found">Benutzer nicht gefunden</string>
+    <string name="data_load_error">Fehler beim Laden der Daten</string>
+    <string name="error_empty_name">Name darf nicht leer sein</string>
+    <string name="error_empty_phone">Telefonnummer darf nicht leer sein</string>
+    <string name="error_empty_country">Land darf nicht leer sein</string>
+    <string name="error_short_password">Passwort muss länger als 6 Zeichen sein</string>
+    <string name="error_password_not_match">Passwörter stimmen nicht überein</string>
+    <string name="login_failed">Anmeldung fehlgeschlagen</string>
+    <string name="error_invalid_email">Ungültiges E-Mail-Format</string>
+    <string name="error_empty_password">Passwort darf nicht leer sein</string>
+    <string name="logging_in">Anmeldung läuft</string>
+    <string name="timeout_retry">Zeitüberschreitung, bitte erneut versuchen</string>
+    <string name="checking">Wird überprüft</string>
+    <string name="user_uid_error">Benutzer-UID konnte nicht abgerufen werden</string>
+    <string name="network_error">Netzwerkfehler</string>
+    <string name="email_verification_required">Sie müssen Ihre E-Mail zuerst verifizieren</string>
+    <string name="loading_user_data">Benutzerdaten werden geladen...</string>
+    <string name="welcome">Willkommen</string>
+    <string name="back">zurück!</string>
+    <string name="account_not_found">Konto nicht gefunden</string>
+    <string name="enter_category_name">Bitte Kategoriename eingeben!</string>
+    <string name="category_exists">Kategorie existiert bereits!</string>
+    <string name="category_added">Kategorie hinzugefügt</string>
+    <string name="select_category">Bitte Kategorie auswählen!</string>
+    <string name="enter_new_name">Bitte neuen Namen eingeben!</string>
+    <string name="category_updated">Kategorie aktualisiert</string>
+    <string name="category_deleted">Kategorie gelöscht</string>
+    <string name="select_month_year">Monat und Jahr wählen</string>
+    <string name="error_open_edit">Fehler beim Öffnen der Bearbeitung</string>
+    <string name="income_expense_ratio">Einnahmen-Ausgaben-Verhältnis</string>
+    <string name="expense_saved">Ausgabe gespeichert</string>
+    <string name="enter_date">Bitte Datum eingeben</string>
+    <string name="income_saved">Einnahme gespeichert</string>
+    <string name="selected">Ausgewählt: </string>
+    <string name="updated">Aktualisiert!</string>
+    <string name="document_id_not_found_update">Dokument-ID zum Aktualisieren nicht gefunden!</string>
+    <string name="deleted">Gelöscht!</string>
+    <string name="document_id_not_found_delete">Dokument-ID zum Löschen nicht gefunden!</string>
+    <string name="error_loading_category">Fehler beim Laden der Kategorie:</string>
+    <string name="saved">Transaktion gespeichert</string>
+    <string name="chi">Ausgabe</string>
+    <string name="thu">Einnahme</string>
+    <string name="ok">OK</string>
+    <string name="over_budget">Budget überschritten</string>
+    <string name="near_budget">Nahe am Budgetlimit</string>"
+    <string name="warning">Warnung</string>
+    <string name="fit_budget">Budget fast erreicht</string>
+    <string name="processing_day">Fehler beim Verarbeiten des Datums: </string>
+    <string name="error_loading_budget">Fehler beim Laden des Budgets: </string>
+    <string name="error_check_total">Fehler beim Überprüfen der Ausgaben: </string>
+    <string name="budget">Budget</string>
+    <string name="please_enter_email">Bitte E-Mail eingeben</string>
+    <string name="year">Jahr</string>
+    <string name="select_year">Jahr auswählen</string>
+    <string name="expense1">Ausgabe</string>
+    <string name="error_parse_date">Fehler beim Parsen des Datums</string>
+    <string name="category_food">Essen</string>
+    <string name="category_transport">Transport</string>
+    <string name="category_shopping">Einkaufen</string>
+    <string name="category_entertainment">Unterhaltung</string>
+    <string name="category_health">Gesundheit</string>
+    <string name="category_education">Bildung</string>
+    <string name="category_bills">Rechnungen</string>
+    <string name="income_salary">Gehalt</string>
+    <string name="income_bonus">Bonus</string>
+    <string name="income_investment">Investition</string>
+    <string name="income_sales">Verkauf</string>
+    <string name="income_other">Andere</string>
+    <string name="select_language">Sprache auswählen</string>
+</resources>

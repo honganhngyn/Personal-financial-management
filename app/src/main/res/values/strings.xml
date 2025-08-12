@@ -1,0 +1,199 @@
+<resources>
+    <string name="app_name">Cashly</string>
+
+    <string name="welcome_to_my_app">Chào mừng bạn quay trở lại!</string>
+    <string name="hint_current_password">Mật khẩu hiện tại</string>
+    <string name="hint_new_password">Mật khẩu mới</string>
+    <string name="hint_confirm_new_password">Xác nhận mật khẩu mới</string>
+    <string name="btn_change_password">Đổi mật khẩu</string>
+
+    <string name="btn_english">English (Tiếng Anh)</string>
+    <string name="btn_vietnamese">Tiếng Việt</string>
+    <string name="btn_korean">한국어 (Tiếng Hàn)</string>
+    <string name="btn_thai">ภาษาไทย (Tiếng Thái)</string>
+    <string name="btn_german">Deutsch (Tiếng Đức)</string>
+    <string name="btn_chinese">中文 (Tiếng Trung)</string>
+    <string name="btn_japanese">日本語 (Tiếng Nhật)</string>
+
+    <string name="menu_input">Nhập vào</string>
+    <string name="menu_calendar">Lịch</string>
+    <string name="menu_chart">Thống kê</string>
+    <string name="menu_setting">Cài đặt</string>
+
+    <string name="setting_profile">Thông tin cá nhân</string>
+    <string name="setting_theme">Giao diện sáng/tối</string>
+    <string name="setting_budget">Đặt ngân sách hàng tháng</string>
+    <string name="setting_language">Chuyển ngôn ngữ</string>
+    <string name="select_language">Chọn ngôn ngữ</string>
+    <string name="setting_change_password">Đổi mật khẩu</string>
+    <string name="setting_logout">Đăng xuất</string>
+    <string name="setting_option">Tùy chọn</string>
+
+    <string name="logout_confirm_title">Xác nhận</string>
+    <string name="logout_confirm_message">Bạn có chắc chắn muốn đăng xuất không?</string>
+    <string name="cancel">Huỷ</string>
+    <string name="yes">Có</string>
+    <string name="logout_success">Đã đăng xuất</string>
+
+    <string name="label_full_name">Họ và tên:</string>
+    <string name="hint_full_name">Nhập họ và tên</string>
+    <string name="label_phone">Số điện thoại:</string>
+    <string name="hint_phone">Nhập số điện thoại</string>
+    <string name="label_country">Quốc gia:</string>
+    <string name="hint_country">Nhập quốc gia</string>
+    <string name="label_email">Email:</string>
+    <string name="hint_email">Nhập email</string>
+    <string name="label_password">Mật khẩu:</string>
+    <string name="hint_password">Nhập mật khẩu</string>
+    <string name="label_confirm_password">Nhập lại mật khẩu:</string>
+    <string name="hint_confirm_password">Nhập lại mật khẩu</string>
+    <string name="btn_register">Đăng Ký</string>
+
+    <string name="title_quan_ly_chi_tieu">Cashly - Master Money</string>
+    <string name="forgot_password">Quên mật khẩu?</string>
+    <string name="login">Đăng Nhập</string>
+    <string name="register">Đăng Ký</string>
+
+    <string name="hint_enter_budget">Nhập ngân sách (VND)</string>
+    <string name="save_budget">Lưu ngân sách</string>
+
+    <string name="label_month">Tháng</string>
+    <string name="income">Tiền thu</string>
+    <string name="expense">Tiền chi</string>
+    <string name="total">Tổng</string>
+
+    <string name="month_title">Tháng</string>
+    <string name="label_chi_tieu">Chi tiêu:\n%s đ</string>
+    <string name="label_thu_nhap">Thu nhập:\n%s đ</string>
+    <string name="label_tong_thu_chi">Tổng thu chi:\n%s đ</string>
+    <string name="change_language">Chuyển ngôn ngữ</string>
+
+    <string name="tab_chi">Danh mục Chi</string>
+    <string name="tab_thu">Danh mục Thu</string>
+    <string name="hint_nhap_ten_danh_muc">Nhập tên danh mục</string>
+    <string name="button_them">Thêm</string>
+    <string name="button_sua">Sửa</string>
+    <string name="button_xoa">Xóa</string>
+    <string name="button_quay_lai">Quay lại</string>
+
+    <string name="label_ngay">Ngày</string>
+    <string name="tab_tien_chi">Tiền chi</string>
+    <string name="tab_tien_thu">Tiền thu</string>
+    <string name="hint_ghi_chu_chi">Nhập ghi chú chi</string>
+    <string name="hint_so_tien_chi">Nhập số tiền chi</string>
+    <string name="btn_luu_tien_chi">Lưu khoản Tiền chi</string>
+    <string name="hint_ghi_chu_thu">Nhập ghi chú thu</string>
+    <string name="hint_so_tien_thu">Nhập số tiền thu</string>
+    <string name="btn_luu_tien_thu">Lưu khoản Tiền thu</string>
+
+
+    <string name="hint_nhap_ngay">Nhập ngày</string>
+    <string name="label_ghi_chu">Ghi chú</string>
+    <string name="hint_nhap_ghi_chu">Nhập ghi chú</string>
+    <string name="label_so_tien">Số tiền</string>
+    <string name="hint_nhap_so_tien">Nhập số tiền</string>
+    <string name="label_chon_danh_muc">Chọn danh mục</string>
+    <string name="btn_luu_thay_doi">Lưu thay đổi</string>
+
+    <string name="danh_muc">Danh mục</string>
+    <string name="edt_danhmuc">Chỉnh sửa danh mục</string>
+
+    <string name="quen_mk">Quên mật khẩu</string>
+    <string name="thong_bao">Hãy kiểm tra Email của bạn</string>
+    <string name="email">Email</string>
+    <string name="gui_yc">Gửi yêu cầu</string>
+
+    <string name="info">Thông tin cá nhân</string>
+    <string name="update">Cập nhật</string>
+
+
+    <string name="error_empty_amount">Vui lòng nhập số tiền</string>
+    <string name="budget_saved">Đã đặt ngân sách cho</string>
+    <string name="budget_save_error">Lỗi khi lưu ngân sách</string>
+    <string name="progress_creating_account">Đang tạo tài khoản</string>
+    <string name="register_account">Đăng ký tài khoản</string>
+    <string name="register_success_message">Đăng ký thành công, bạn hãy kiểm tra mail để xác thực tài khoản nhé</string>
+    <string name="register_fail_message">Đăng ký thất bại, lý do: </string>
+    <string name="verify_account">Xác thực tài khoản</string>
+    <string name="verify_email_fail_message">Gửi liên kết yêu cầu xác thực thất bại, lý do: </string>
+    <string name="progress_saving_data">Đang lưu thông tin</string>
+    <string name="update_failed_try_again">Cập nhật thất bại, thử lại</string>
+    <string name="save_success">Lưu thành công</string>
+    <string name="save_account">Lưu thông tin</string>
+    <string name="save_fail_message">Không thể lưu thông tin, lý do: </string>
+    <string name="error_incomplete_info">Vui lòng điền đầy đủ thông tin</string>
+    <string name="error_password_mismatch">Mật khẩu xác nhận không khớp</string>
+    <string name="password_change_success">Đổi mật khẩu thành công</string>
+    <string name="password_change_error">Lỗi khi đổi mật khẩu</string>
+    <string name="error_incorrect_current_password">Mật khẩu hiện tại không đúng</string>
+    <string name="reset_link_sent">Một đường liên kết đặt lại mật khẩu đã gửi đến mail của bạn, hãy kiểm tra nhé</string>
+    <string name="error">Lỗi</string>
+    <string name="user_not_found">Không tìm thấy người dùng</string>
+    <string name="data_load_error">Lỗi tải dữ liệu</string>
+    <string name="error_empty_name">Họ tên không được bỏ trống</string>
+    <string name="error_empty_phone">SĐT không được bỏ trống</string>
+    <string name="error_empty_country">Quốc gia không được bỏ trống</string>
+    <string name="error_short_password">Mật khẩu phải dài hơn 6 ký tự</string>
+    <string name="error_password_not_match">Mật khẩu không trùng khớp</string>
+    <string name="login_failed">Không thể đăng nhập</string>
+    <string name="error_invalid_email">Sai định dạng email</string>
+    <string name="error_empty_password">Mật khẩu trống</string>
+    <string name="logging_in">Đang đăng nhập</string>
+    <string name="timeout_retry">Quá thời gian chờ, vui lòng thử lại</string>
+    <string name="checking">Đang kiểm tra</string>
+    <string name="user_uid_error">Không lấy được UID người dùng</string>
+    <string name="network_error">Lỗi mạng</string>
+    <string name="email_verification_required">Bạn phải xác thực email trước đó</string>
+    <string name="loading_user_data">Đang tải dữ liệu người dùng...</string>
+    <string name="welcome">Chào mừng</string>
+    <string name="back">quay trở lại!</string>
+    <string name="account_not_found">Không tìm thấy tài khoản</string>
+    <string name="enter_category_name">Hãy nhập tên danh mục!</string>
+    <string name="category_exists">Đã có tên danh mục này!</string>
+    <string name="category_added">Đã thêm danh mục</string>
+    <string name="select_category">Vui lòng chọn danh mục!</string>
+    <string name="enter_new_name">Hãy nhập tên mới!</string>
+    <string name="category_updated">Đã cập nhật danh mục</string>
+    <string name="category_deleted">Đã xóa danh mục</string>
+    <string name="select_month_year">Chọn tháng và năm</string>
+    <string name="error_open_edit">Lỗi khi mở Edit</string>
+    <string name="income_expense_ratio">Tỷ lệ thu chi</string>
+    <string name="expense_saved">Đã lưu khoản chi</string>
+    <string name="enter_date">Vui lòng nhập ngày</string>
+    <string name="income_saved">Đã lưu khoản thu</string>
+    <string name="selected">Đã chọn: </string>
+    <string name="updated">Đã cập nhật!</string>
+    <string name="document_id_not_found_update">Không tìm thấy documentId để cập nhật!</string>
+    <string name="deleted">Đã xóa!</string>
+    <string name="document_id_not_found_delete">Không tìm thấy documentId để xóa!</string>
+    <string name="error_loading_category">Lỗi load danh mục:</string>
+    <string name="saved">Đã lưu khoản</string>
+    <string name="chi">chi</string>
+    <string name="thu">thu</string>
+    <string name="ok">Đồng ý</string>
+    <string name="over_budget">Vượt ngân sách</string>"
+    <string name="near_budget">Gần vượt ngân sách</string>"
+    <string name="warning">Cảnh báo</string>"
+    <string name="fit_budget">Chạm ngân sách</string>
+    <string name="processing_day">Lỗi khi xử lý ngày: </string>
+    <string name="error_loading_budget">Lỗi khi lấy ngân sách: </string>
+    <string name="error_check_total">Lỗi khi kiểm tra tổng chi: </string>
+    <string name="budget">Ngân sách</string>
+    <string name="please_enter_email">Vui lòng nhập email</string>
+    <string name="year">Năm</string>
+    <string name="select_year">Chọn năm</string>
+    <string name="expense1">Chi tiêu</string>
+    <string name="error_parse_date">Lỗi parse ngày</string>
+    <string name="category_food">Ăn uống</string>
+    <string name="category_transport">Đi lại</string>
+    <string name="category_shopping">Mua sắm</string>
+    <string name="category_entertainment">Giải trí</string>
+    <string name="category_health">Sức khỏe</string>
+    <string name="category_education">Học tập</string>
+    <string name="category_bills">Hóa đơn</string>
+    <string name="income_salary">Lương</string>
+    <string name="income_bonus">Thưởng</string>
+    <string name="income_investment">Đầu tư</string>
+    <string name="income_sales">Bán hàng</string>
+    <string name="income_other">Khác</string>
+</resources>

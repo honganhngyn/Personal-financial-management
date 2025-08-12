@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Ngày -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/etDate"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_text_bg"
+                android:focusable="false"
+                android:gravity="center"
+                android:hint="@string/label_ngay"
+                android:padding="12dp"
+                android:textColor="#FFFFFF" />
+
+            <EditText
+                android:id="@+id/textDate"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="@string/hint_nhap_ngay"
+                android:inputType="date"
+                android:minHeight="48dp" />
+        </LinearLayout>
+
+        <!-- Ghi chú -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/etNote"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_text_bg"
+                android:focusable="false"
+                android:gravity="center"
+                android:hint="@string/label_ghi_chu"
+                android:padding="12dp"
+                android:textColor="#FFFFFF" />
+
+            <EditText
+                android:id="@+id/textNote"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="@string/hint_nhap_ghi_chu"
+                android:inputType="text"
+                android:minHeight="48dp" />
+        </LinearLayout>
+
+        <!-- Số tiền -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/etAmount"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_text_bg"
+                android:focusable="false"
+                android:gravity="center"
+                android:hint="@string/label_so_tien"
+                android:inputType="numberDecimal"
+                android:padding="12dp"
+                android:textColor="#FFFFFF" />
+
+            <EditText
+                android:id="@+id/textAmount"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="@string/hint_nhap_so_tien"
+                android:inputType="number"
+                android:minHeight="48dp" />
+        </LinearLayout>
+
+        <!-- DANH MỤC (GridLayout chọn danh mục) -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/label_chon_danh_muc"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <GridLayout
+            android:id="@+id/gridCategories"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="16dp"
+            android:alignmentMode="alignMargins"
+            android:columnCount="4"
+            android:rowCount="3"
+            android:useDefaultMargins="true" />
+
+        <!-- Nút -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnSave"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:backgroundTint="#00BFFF"
+                android:text="@string/btn_luu_thay_doi"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/btnDelete"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/colorRed"
+                android:text="@string/button_xoa"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

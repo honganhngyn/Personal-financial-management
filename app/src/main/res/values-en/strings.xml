@@ -1,0 +1,198 @@
+<resources>
+    <string name="app_name">QLTaiChinh</string>
+
+    <string name="welcome_to_my_app">Welcome back!</string>
+
+    <string name="hint_current_password">Current password</string>
+    <string name="hint_new_password">New password</string>
+    <string name="hint_confirm_new_password">Confirm new password</string>
+    <string name="btn_change_password">Change password</string>
+
+    <string name="btn_english">English</string>
+    <string name="btn_vietnamese">Tiếng Việt (Vietnamese)</string>
+    <string name="btn_korean">한국어 (Korean)</string>
+    <string name="btn_thai">ภาษาไทย (Thai)</string>
+    <string name="btn_german">Deutsch (German)</string>
+    <string name="btn_chinese">中文 (Chinese)</string>
+    <string name="btn_japanese">日本語 (Japanese)</string>
+
+    <string name="menu_input">Input</string>
+    <string name="menu_calendar">Calendar</string>
+    <string name="menu_chart">Statistics</string>
+    <string name="menu_setting">Settings</string>
+
+    <string name="setting_profile">Profile</string>
+    <string name="setting_theme">Light/Dark Mode</string>
+    <string name="setting_budget">Set Monthly Budget</string>
+    <string name="setting_language">Change Language</string>
+    <string name="select_language">Select Language</string>
+    <string name="setting_change_password">Change Password</string>
+    <string name="setting_logout">Log Out</string>
+    <string name="setting_option">Options</string>
+
+    <string name="logout_confirm_title">Confirmation</string>
+    <string name="logout_confirm_message">Are you sure you want to log out?</string>
+    <string name="cancel">Cancel</string>
+    <string name="yes">Yes</string>
+    <string name="logout_success">Logged out</string>
+
+    <string name="label_full_name">Full Name:</string>
+    <string name="hint_full_name">Enter full name</string>
+    <string name="label_phone">Phone Number:</string>
+    <string name="hint_phone">Enter phone number</string>
+    <string name="label_country">Country:</string>
+    <string name="hint_country">Enter country</string>
+    <string name="label_email">Email:</string>
+    <string name="hint_email">Enter email</string>
+    <string name="label_password">Password:</string>
+    <string name="hint_password">Enter password</string>
+    <string name="label_confirm_password">Confirm Password:</string>
+    <string name="hint_confirm_password">Re-enter password</string>
+    <string name="btn_register">Register</string>
+
+    <string name="title_quan_ly_chi_tieu">Expense Management</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+
+    <string name="hint_enter_budget">Enter budget (VND)</string>
+    <string name="save_budget">Save budget</string>
+
+    <string name="label_month">Month</string>
+    <string name="income">Income</string>
+    <string name="expense">Expense</string>
+    <string name="total">Total</string>
+
+    <string name="month_title">Month</string>
+    <string name="label_chi_tieu">Expenses:\n%s đ</string>
+    <string name="label_thu_nhap">Income:\n%s đ</string>
+    <string name="label_tong_thu_chi">Total:\n%s đ</string>
+    <string name="change_language">Change Language</string>
+
+    <string name="tab_chi">Expense Categories</string>
+    <string name="tab_thu">Income Categories</string>
+    <string name="hint_nhap_ten_danh_muc">Enter category name</string>
+    <string name="button_them">Add</string>
+    <string name="button_sua">Edit</string>
+    <string name="button_xoa">Delete</string>
+    <string name="button_quay_lai">Back</string>
+
+    <string name="label_ngay">Date</string>
+    <string name="tab_tien_chi">Expense</string>
+    <string name="tab_tien_thu">Income</string>
+    <string name="hint_ghi_chu_chi">Enter expense note</string>
+    <string name="hint_so_tien_chi">Enter expense amount</string>
+    <string name="btn_luu_tien_chi">Save Expense</string>
+    <string name="hint_ghi_chu_thu">Enter income note</string>
+    <string name="hint_so_tien_thu">Enter income amount</string>
+    <string name="btn_luu_tien_thu">Save Income</string>
+
+    <string name="hint_nhap_ngay">Enter date</string>
+    <string name="label_ghi_chu">Note</string>
+    <string name="hint_nhap_ghi_chu">Enter note</string>
+    <string name="label_so_tien">Amount</string>
+    <string name="hint_nhap_so_tien">Enter amount</string>
+    <string name="label_chon_danh_muc">Choose category</string>
+    <string name="btn_luu_thay_doi">Save changes</string>
+
+    <string name="danh_muc">Category</string>
+    <string name="edt_danhmuc">Edit Category</string>
+
+    <string name="quen_mk">Forgot Password?</string>
+    <string name="thong_bao">Please check your email account.</string>
+    <string name="email">Email</string>
+    <string name="gui_yc">Send Request</string>
+
+    <string name="info">Personal Information</string>
+    <string name="update">Update</string>
+
+    <string name="error_empty_amount">Please enter an amount</string>
+    <string name="budget_saved">Budget set for </string>
+    <string name="budget_save_error">Error saving budget</string>
+    <string name="error_incomplete_info">Please fill in all required information</string>
+    <string name="error_password_mismatch">Confirmation password does not match</string>
+    <string name="password_change_success">Password changed successfully</string>
+    <string name="password_change_error">Error changing password</string>
+    <string name="error_incorrect_current_password">Current password is incorrect</string>
+    <string name="reset_link_sent">A password reset link has been sent to your email, please check it</string>
+    <string name="error">Error</string>
+    <string name="user_not_found">User not found</string>
+    <string name="data_load_error">Failed to load data</string>
+    <string name="error_empty_name">Name cannot be empty</string>
+    <string name="error_empty_phone">Phone number cannot be empty</string>
+    <string name="error_empty_country">Country cannot be empty</string>
+    <string name="error_invalid_email">Invalid email format</string>
+    <string name="error_short_password">Password must be longer than 6 characters</string>
+    <string name="error_password_not_match">Passwords do not match</string>
+    <string name="login_failed">Login failed</string>
+    <string name="error_empty_password">Password is empty</string>
+    <string name="logging_in">Logging in</string>
+    <string name="timeout_retry">Timeout, please try again</string>
+    <string name="checking">Checking</string>
+    <string name="user_uid_error">Unable to retrieve user UID</string>
+    <string name="network_error">Network error</string>
+    <string name="email_verification_required">You must verify your email first</string>
+    <string name="loading_user_data">Loading user data...</string>
+    <string name="welcome">Welcome</string>
+    <string name="back">back!</string>
+    <string name="account_not_found">Account not found</string>
+    <string name="enter_category_name">Please enter category name!</string>
+    <string name="category_exists">This category already exists!</string>
+    <string name="category_added">Category added</string>
+    <string name="select_category">Please select a category!</string>
+    <string name="enter_new_name">Please enter new name!</string>
+    <string name="category_updated">Category updated</string>
+    <string name="category_deleted">Category deleted</string>
+    <string name="select_month_year">Select month and year</string>
+    <string name="error_open_edit">Error opening Edit</string>
+    <string name="income_expense_ratio">Income-expense ratio</string>
+    <string name="expense_saved">Expense saved</string>
+    <string name="enter_date">Please enter a date</string>
+    <string name="income_saved">Income saved</string>
+    <string name="selected">Selected: </string>
+    <string name="updated">Updated!</string>
+    <string name="document_id_not_found_update">Document ID not found for update!</string>
+    <string name="deleted">Deleted!</string>
+    <string name="document_id_not_found_delete">Document ID not found for deletion!</string>
+    <string name="error_loading_category">Error loading category:</string>
+    <string name="progress_creating_account">Creating account...</string>
+    <string name="register_account">Register Account</string>
+    <string name="register_success_message">Registration successful, please check your email to verify your account</string>
+    <string name="register_fail_message">Registration failed, reason: </string>
+    <string name="verify_account">Verify Account</string>
+    <string name="verify_email_fail_message">Failed to send verification link, reason: </string>
+    <string name="progress_saving_data">Saving information...</string>
+    <string name="save_success">Saved successfully</string>
+    <string name="save_account">Save Information</string>
+    <string name="save_fail_message">Failed to save information, reason: </string>
+    <string name="update_failed_try_again">Update failed, please try again</string>
+    <string name="saved">Saved transaction</string>
+    <string name="chi">expense</string>
+    <string name="thu">income</string>
+    <string name="ok">OK</string>
+    <string name="over_budget">Over budget limit</string>
+    <string name="near_budget">Near budget limit</string>
+    <string name="warning">Warning</string>
+    <string name="fit_budget">Approaching budget limit</string>
+    <string name="processing_day">Error processing date: </string>
+    <string name="error_loading_budget">Error loading budget: </string>
+    <string name="error_check_total">Error checking total expenses: </string>
+    <string name="budget">Budget</string>
+    <string name="please_enter_email">Please enter email</string>
+    <string name="year">Year</string>
+    <string name="select_year">Select year</string>
+    <string name="expense1">Expense</string>
+    <string name="error_parse_date">Error parsing date</string>
+    <string name="category_food">Food</string>
+    <string name="category_transport">Transport</string>
+    <string name="category_shopping">Shopping</string>
+    <string name="category_entertainment">Entertainment</string>
+    <string name="category_health">Health</string>
+    <string name="category_education">Education</string>
+    <string name="category_bills">Bills</string>
+    <string name="income_salary">Salary</string>
+    <string name="income_bonus">Bonus</string>
+    <string name="income_investment">Investment</string>
+    <string name="income_sales">Sales</string>
+    <string name="income_other">Other</string>
+</resources>
